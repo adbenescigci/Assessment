@@ -1,0 +1,268 @@
+.fixed-column tbody > tr:nth-child(even) > :nth-child(2) {
+    background: white;
+    position: sticky;
+    left: 0;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
+
+.fixed-column tbody > tr:nth-child(odd) > :nth-child(2) {
+    background: #EEEEEE;
+    position: sticky;
+    left: 0;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
+
+.fixed-column-ex-csn tbody > tr:nth-child(even) > :nth-child(4) {
+    background: white;
+    position: sticky;
+    left: 0;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
+
+.fixed-column-ex-csn tbody > tr:nth-child(odd) > :nth-child(4) {
+    background: #EEEEEE;
+    position: sticky;
+    left: 0;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
+
+/*
+for checkbox column
+*/
+.fixed-column-csn-0 tbody > tr:nth-child(even) > :nth-child(1) {
+    background: white;
+    position: sticky;
+    left: -20px;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
+
+.fixed-column-csn-0 tbody > tr:nth-child(odd) > :nth-child(1) {
+    background: #EEEEEE;
+    position: sticky;
+    left: -20px;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
+
+.fixed-column-csn-0 thead > tr:nth-child(even) > :nth-child(1) {
+    background: white;
+    position: sticky;
+    left: -20px;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
+
+.fixed-column-csn-0 thead > tr:nth-child(odd) > :nth-child(1) {
+    background: #EEEEEE;
+    position: sticky;
+    left: -20px;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
+
+/*
+for number column for without checkbox
+*/
+.fixed-column-csn-4 tbody > tr:nth-child(even) > :nth-child(2) {
+    background: white;
+    position: sticky;
+    left: -10px;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
+
+.fixed-column-csn-4 tbody > tr:nth-child(odd) > :nth-child(2) {
+    background: #EEEEEE;
+    position: sticky;
+    left: -10px;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
+
+.fixed-column-csn-4 thead > tr:nth-child(even) > :nth-child(2) {
+    background: white;
+    position: sticky;
+    left: -10px;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
+
+.fixed-column-csn-4 thead > tr:nth-child(odd) > :nth-child(2) {
+    background: #EEEEEE;
+    position: sticky;
+    left: -10px;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
+
+/*
+for number column for with checkbox
+*/
+.fixed-column-csn-5 tbody > tr:nth-child(even) > :nth-child(2) {
+    background: white;
+    position: sticky;
+    left: 40px;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
+
+.fixed-column-csn-5 tbody > tr:nth-child(odd) > :nth-child(2) {
+    background: #EEEEEE;
+    position: sticky;
+    left: 40px;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
+
+.fixed-column-csn-5 thead > tr:nth-child(even) > :nth-child(2) {
+    background: white;
+    position: sticky;
+    left: 40px;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
+
+.fixed-column-csn-5 thead > tr:nth-child(odd) > :nth-child(2) {
+    background: #EEEEEE;
+    position: sticky;
+    left: 40px;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
+/*
+for detail column
+*/
+.fixed-column-csn-1 tbody > tr:nth-child(even) > :nth-child(3) {
+    background: white;
+    position: sticky;
+    left: 50px;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
+
+.fixed-column-csn-1 tbody > tr:nth-child(odd) > :nth-child(3) {
+    background: #EEEEEE;
+    position: sticky;
+    left: 50px;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
+
+.fixed-column-csn-1 thead > tr:nth-child(even) > :nth-child(3) {
+    background: white;
+    position: sticky;
+    left: 50px;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
+
+.fixed-column-csn-1 thead > tr:nth-child(odd) > :nth-child(3) {
+    background: #EEEEEE;
+    position: sticky;
+    left: 50px;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
+
+/*
+for ID column
+*/
+.fixed-column-csn-2 tbody > tr:nth-child(even) > :nth-child(4) {
+    background: white;
+    position: sticky;
+    left: 105px;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
+
+.fixed-column-csn-2 tbody > tr:nth-child(odd) > :nth-child(4) {
+    background: #EEEEEE;
+    position: sticky;
+    left: 105px;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
+
+.fixed-column-csn-2 thead > tr:nth-child(even) > :nth-child(4) {
+    background: white;
+    position: sticky;
+    left: 105px;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
+
+.fixed-column-csn-2 thead > tr:nth-child(odd) > :nth-child(4) {
+    background: #EEEEEE;
+    position: sticky;
+    left: 105px;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
+
+/*
+for name column
+*/
+.fixed-column-csn-3 tbody > tr:nth-child(even) > :nth-child(5) {
+    background: white;
+    position: sticky;
+    left: 197px;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
+
+.fixed-column-csn-3 tbody > tr:nth-child(odd) > :nth-child(5) {
+    background: #EEEEEE;
+    position: sticky;
+    left: 197px;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
+
+.fixed-column-csn-3 thead > tr:nth-child(even) > :nth-child(5) {
+    background: white;
+    position: sticky;
+    left: 197px;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
+
+.fixed-column-csn-3 thead > tr:nth-child(odd) > :nth-child(5) {
+    background: #EEEEEE;
+    position: sticky;
+    left: 197px;
+    z-index: 101;
+    text-align: center;
+    justify-content: center;
+}
