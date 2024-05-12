@@ -45,7 +45,7 @@ export const Counter = () => {
           +
         </button>
       </div>
-      <Button className="pb-8 text-zinc-400">Test</Button>
+      <Button className="pb-8 text-purple-300">Test</Button>
       <div className={styles.row}>
         <input
           className={styles.textbox}
