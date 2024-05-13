@@ -48,12 +48,7 @@ const SampleTableView = (props) => {
     );
   };
   return (
-    <Grid
-      id={loading ? "loading" : "non-loading"}
-      item
-      xs={12}
-      className="table-view-body"
-    >
+    <Grid id={loading ? "loading" : "non-loading"} item xs={12}>
       <MuiTable
         tableColumns={tableHeaders}
         tableData={showData}

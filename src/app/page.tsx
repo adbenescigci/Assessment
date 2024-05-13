@@ -12,7 +12,10 @@ export default function Home() {
   return (
     <>
       <DefaultLayout>
-        <Stack direction="row" spacing={2}></Stack>
+        <Stack className="flex flex-row gap-8">
+          <p>a</p>
+          <p>b</p>
+        </Stack>
         <ECommerce />
       </DefaultLayout>
     </>

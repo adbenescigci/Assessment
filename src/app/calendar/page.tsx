@@ -14,7 +14,7 @@ const CalendarPage = () => {
 
   return (
     <DefaultLayout>
-      <Button>Redux Count:{count}</Button>
+      <Button className="pb-2 text-orange-500">Redux Count:{count}</Button>
       <SampleTableView
         loading={false}
         showData={mockData}
