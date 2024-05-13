@@ -1,14 +1,10 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
-import { Grid } from "@mui/material";
-import MuiTable from "@/components/MuiTable";
-import Checkbox from "@mui/material/Checkbox";
-import FormControlLabel from "@mui/material/FormControlLabel";
+import { Grid, Checkbox, FormControlLabel } from "@mui/material";
 import Footer from "./components/Footer";
+import MuiTable from "@/components/MuiTable";
 import getTableHeaders from "./utils/headerVariables";
-
-import "./styles/SampleTableView.css";
 
 const SampleTableView = (props) => {
   const {
