@@ -1,7 +1,10 @@
-import Chart from "@/components/Charts/page";
 import { Metadata } from "next";
+import dynamic from "next/dynamic";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
-import React from "react";
+
+const Chart = dynamic(() => import("@/components/Charts/page"), {
+  ssr: false,
+});
 
 export const metadata: Metadata = {
   title: "Next.js Chart | TailAdmin - Next.js Dashboard Template",

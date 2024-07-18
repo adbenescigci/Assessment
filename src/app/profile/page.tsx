@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "This is Next.js Profile page for TailAdmin - Next.js Tailwind CSS Admin Dashboard Template",
 };
-
+console.log("profile", "render");
 const Profile = () => {
   return (
     <DefaultLayout>

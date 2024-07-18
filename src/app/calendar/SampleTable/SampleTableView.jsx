@@ -12,13 +12,17 @@ const SampleTableView = (props) => {
     selectedCourse,
     loading,
     handleAddPoolDialogShow,
-    handleActivePoolSwitch,
     myPoolCheck,
     handleMyPoolSwitch,
-    activePoolCheck,
   } = props;
   const [sortOrder, setSortOrder] = useState({});
   const [tableHeaders, setTableHeaders] = useState([]);
+  const [activePoolCheck, setActivePoolCheck] = useState(true);
+
+  function handleActivePoolSwitch(event, extra = null) {
+    if (event) return setActivePoolCheck(event.target.checked);
+    if (extra) setActivePoolCheck(extra?.[9]?.[0] === "Yes");
+  }
 
   useEffect(() => {
     const _head = getTableHeaders(activePoolCheck);
@@ -44,7 +48,12 @@ const SampleTableView = (props) => {
     );
   };
   return (
-    <Grid id={loading ? "loading" : "non-loading"} item xs={12}>
+    <Grid
+      suppressHydrationWarning={true}
+      id={loading ? "loading" : "non-loading"}
+      item
+      xs={12}
+    >
       <MuiTable
         tableColumns={tableHeaders}
         tableData={showData}
