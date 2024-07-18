@@ -49,7 +49,6 @@ const SampleTableView = (props) => {
   };
   return (
     <Grid
-      suppressHydrationWarning={true}
       id={loading ? "loading" : "non-loading"}
       item
       xs={12}

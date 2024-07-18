@@ -1,11 +1,6 @@
 import { Metadata } from "next";
-import DefaultLayout from "@/components/Layouts/DefaultLayout";
-import dynamic from "next/dynamic";
 import { Button } from "@mui/material";
-
-const ECommerce = dynamic(() => import("@/components/Dashboard/E-commerce"), {
-  ssr: false,
-});
+import ECommerce from "@/components/Dashboard/E-commerce"
 
 export const metadata: Metadata = {
   title: "Next.js Test Template",
@@ -15,10 +10,8 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <DefaultLayout>
         <Button className="m-1 bg-green-200  bg-blend-color-dodge">Test</Button>
         <ECommerce />
-      </DefaultLayout>
     </>
   );
 }

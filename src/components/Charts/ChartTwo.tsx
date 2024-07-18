@@ -1,6 +1,12 @@
-import { ApexOptions } from "apexcharts";
+"use client"
 import React, { useState } from "react";
-import ReactApexChart from "react-apexcharts";
+import dynamic from "next/dynamic";
+import { ApexOptions } from "apexcharts";
+
+const ReactApexChart = dynamic(
+  () => import('react-apexcharts'),
+  { ssr: false }
+);
 
 const options: ApexOptions = {
   colors: ["#3C50E0", "#80CAEE"],
@@ -101,6 +107,7 @@ const ChartTwo: React.FC = () => {
         <div>
           <div className="relative z-20 inline-block">
             <select
+              title="#"
               name="#"
               id="#"
               className="relative z-20 inline-flex appearance-none bg-transparent py-1 pl-3 pr-8 text-sm font-medium outline-none"
